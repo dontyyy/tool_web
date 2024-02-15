@@ -1,0 +1,21 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex_only {
+  display: flex;
+}
+
+// 超过长度显示...
+.textmore {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
